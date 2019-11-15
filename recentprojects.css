@@ -1,0 +1,75 @@
+body{
+  background-color:  rgb(126, 220, 241);
+  background-image: url("bluebackground.jpg");
+  margin: 0;
+}
+
+header{
+  text-align: center;
+}
+
+h1{
+  font-family: 'Ultra', serif;
+  font-size: 60px;
+  margin:0;
+  padding-bottom: 10px;
+}
+
+table{
+  border-collapse: collapse;
+  width: 80%;
+  margin: 20px auto;
+}
+
+table, th, td{
+  border: 1px solid black;
+}
+
+th, td{
+  padding: 10px;
+}
+
+th{
+  text-align: left;
+  background-color: rgb(155, 56, 212);
+  color:white;
+  font-size: 30px;
+}
+
+tr:hover {
+  background-color: rgb(230, 219, 235);
+}
+
+tr{
+  background-color: rgb(216, 190, 226);
+}
+
+td{
+  font-size: 24px;
+}
+
+td:nth-child(1) {
+  width: 100px;
+}
+
+.home{
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.25);
+  position: static;
+  top: 0;
+  width: 100%;
+}
+
+.home a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 5px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.home a:hover{
+  background: rgba(0, 0, 0, 0.303);
+}

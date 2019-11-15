@@ -1,0 +1,89 @@
+body{
+  background-color: rgb(187, 232, 240);
+  background-image: radial-gradient( rgb(34, 180, 213), rgb(207, 234, 244));
+  margin: 0;
+}
+
+header{
+  text-align: center;
+}
+
+h1{
+  font-family: 'Ultra', serif;
+  font-size: 60px;
+  margin:0;
+  padding-bottom: 10px;
+}
+
+table{
+  border-collapse: collapse;
+  width: 80%;
+  margin: 20px auto;
+}
+
+table, th, td{
+  border: 1px solid black;
+}
+
+th, td{
+  padding: 10px;
+}
+
+th{
+  text-align: left;
+  background-color: rgb(51, 232, 153);
+  color:white;
+  font-size: 30px;
+}
+
+tr:hover {
+  background-color: rgb(195, 221, 205);
+}
+
+
+tr{
+  background-color: rgb(174, 226, 195);
+}
+
+td{
+  font-size: 24px;
+}
+
+button{
+  font-size: 20px;
+  padding: 12px 30px;
+  margin: 10px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(153, 233, 137);
+}
+
+.stop button{
+  width: 100%;
+  margin: 0;
+  align-items: center;
+  font-size: 25px;
+  font-style: unset;
+}
+
+.home{
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.25);
+  position: static;
+  top: 0;
+  width: 100%;
+}
+
+.home a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 5px;
+  padding-right: 25px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.home a:hover{
+  background: rgba(0, 0, 0, 0.303);
+}
